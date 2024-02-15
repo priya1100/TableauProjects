@@ -40,3 +40,5 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 <pre>
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 </pre>
+### step-2:Data Visualization using Tableau
+<image src="sales_project_finalresult.png">
